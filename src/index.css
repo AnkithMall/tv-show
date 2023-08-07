@@ -1,0 +1,35 @@
+.header {
+    background-color: #323232;
+    color: white;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.showcards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mycard {
+    background-color:red;
+    width:200px;
+    height:295px;
+    margin:30px;
+    position:relative ;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.cardContent {
+    position:absolute;
+    z-index:10;
+    bottom:0;
+    transform:translateY(100%);
+    transition:0.3s;
+    background-color:rgba(255,255,255,0.7);
+    width: 100%;
+}
+.mycard:hover .cardContent {
+    transform: translateY(0%);
+}
