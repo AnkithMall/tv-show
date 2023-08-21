@@ -1,7 +1,4 @@
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
 
 const HeaderComponent = () => {
@@ -9,7 +6,7 @@ const HeaderComponent = () => {
         <header>
             <Container className='header text-center' fluid>
                <Link to={"/"}>
-                <h2 className=''>FavShow</h2>
+                <h2 className=''>Fav-Show</h2>
                </Link> 
             </Container>
         </header>

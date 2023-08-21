@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { json, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import ShowCardComponent from "../ShowCardComponent";
 
 const ShowListComponent = () => {
